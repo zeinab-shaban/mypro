@@ -191,7 +191,7 @@ transition: 0.3s;
 /* start landing section */
 .landing{
 
-    background-image: url(../images/moon.jpg);
+    background-image: url(../images/moon.jpeg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
