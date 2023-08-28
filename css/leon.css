@@ -191,7 +191,7 @@ transition: 0.3s;
 /* start landing section */
 .landing{
 
-    background-image: url(../images/download.jpeg);
+    background-image: url(../images/moon.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
@@ -333,9 +333,6 @@ position: relative;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
-    
-   
-
 }
 .portfolio .portfolio-content{
 
@@ -373,6 +370,7 @@ line-height: 1.6;
 margin-bottom: 0;
 
 }
+
 /* end portfolio */
 
 /* start about */
@@ -429,11 +427,9 @@ margin-bottom: 0;
     padding-right:90px;
 }
 .About .About-content .text p:first-of-type{
-   
     font-weight: bold;
     line-height: 1.6;
     margin-bottom: 50px;
-   
 
 }
 .About .About-content .text p:last-of-type{
