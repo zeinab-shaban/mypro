@@ -217,7 +217,7 @@ transition: 0.3s;
 .features{
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: aliceblue;
+    background-color:var(--three-color);
 }
 
 .features .container{
@@ -467,7 +467,7 @@ margin-bottom: 0;
 .contact{
     padding-top: var(--section-padding);
     padding-bottom:var(--section-padding);
-    background-color: aliceblue;
+    background-color: var(--three-color);
 }
 
 .contact .info{
