@@ -6,6 +6,7 @@
     --secondary-color:#2c4755;
     --section-padding:60px;
     --section-background:#f6f6f6;
+    --three-color:aliceblue;
 }
 
 /* select the global rules */
@@ -21,14 +22,9 @@ html{
 
 }
 
-
-
 body{
     font-family: 'Work Sans', sans-serif;
 } 
-
-
-/* the end of global rules */
 
 .container{
 
@@ -60,6 +56,8 @@ body{
     }
 }
 /* end global rules */
+
+
 /* start components */
 
 .special-heading{
@@ -69,13 +67,11 @@ body{
     text-align: center;
     letter-spacing:-3px;
     margin: 0;
-
 }
 @media(max-width:767px){
     .special-heading{
         font-size: 60px;
     }
-
 
 }
 
@@ -87,8 +83,6 @@ body{
 
 }
 /* end components */
-
-
 
 
 /* start header */
@@ -177,9 +171,9 @@ color:#333;
 transition: 0.3s;
 
 }
+
 .header .links ul li a:hover{
     padding-left: 25px;
-
 
 }
 .header .links ul li:not(:last-child) a{
@@ -332,7 +326,7 @@ position: relative;
 .portfolio{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-color: var(--section-background);
+    background-color:aliceblue;
 }
 .portfolio .portfolio-content{
 
@@ -473,7 +467,7 @@ margin-bottom: 0;
 .contact{
     padding-top: var(--section-padding);
     padding-bottom:var(--section-padding);
-    background-color: var(--section-background);
+    background-color: aliceblue;
 }
 
 .contact .info{
